@@ -23,11 +23,11 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
 
-    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <body class="theme-dark" data-spy="scroll" data-target=".navbar" data-offset="51">
         <!-- Nav Bar Start -->
-        <div class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="navbar navbar-expand-lg bg-light navbar-light glass-nav">
             <div class="container-fluid">
-<div class="typed-text" style="color: black;">WELCOME, YOU ARE HERE, AT DIPESH PORTFOLIO</div>
+<div class="typed-text nav-welcome" style="color: black;">WELCOME, YOU ARE HERE, AT DIPESH PORTFOLIO</div>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -55,6 +55,7 @@
                 <div class="row align-items-center">
                     <div class="col-sm-12 col-md-6">
                         <div class="hero-content">
+                            <div class="hero-glow"></div>
                             
                             <div class="hero-text">
                                 <p>I'm</p>
@@ -69,6 +70,8 @@
                     </div>
                     <div class="col-sm-12 col-md-6 d-none d-md-block">
                         <div class="hero-image">
+                            <span class="floating-orb orb-1"></span>
+                            <span class="floating-orb orb-2"></span>
                             <img src="img/pic (7).jpg" alt="Hero Image">
                         </div>
                     </div>
@@ -88,7 +91,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="about-content">
+                        <div class="about-content glass-card">
                             <div class="section-header text-left">
                                 <p>Learn About Me</p>
                             </div>
@@ -101,31 +104,31 @@
                                 <div class="skill-name">
                                     <p>Structural Design & Analysis </p><p>85%</p>
                                 </div>
-                                <div class="progress">
+                                <div class="progress neon-progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                  <div class="skill-name">
                                     <p> Building Information Modeling </p><p>95%</p>
                                 </div>
-                                <div class="progress">
+                                <div class="progress neon-progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div class="skill-name">
                                     <p>Construction Management</p><p>95%</p>
                                 </div>
-                                <div class="progress">
+                                <div class="progress neon-progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div class="skill-name">
                                     <p>Surveying & Mapping </p><p>90%</p>
                                 </div>
-                                <div class="progress">
+                                <div class="progress neon-progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                                 <div class="skill-name">
                                     <p>Material Strength & Testing </p><p>85%</p>
                                 </div>
-                                <div class="progress">
+                                <div class="progress neon-progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
@@ -147,7 +150,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="service-item">
+                        <div class="service-item neon-card">
                             <div class="service-icon">
                                 <i class="fa fa-laptop"></i>
                             </div>
@@ -159,7 +162,7 @@ With expertise in Revit and SketchUp, I create 3D models and visualizations that
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item">
+                        <div class="service-item neon-card">
                             <div class="service-icon">
                                 <i class="fa fa-laptop-code"></i>
                             </div>
@@ -172,7 +175,7 @@ I assist in site planning, surveying, and project execution by using modern tool
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
+                        <div class="service-item neon-card">
                             <div class="service-icon">
                                 <i class="fab fa-android"></i>
                             </div>
@@ -185,7 +188,7 @@ I help manage projects by planning workflows, estimating costs, and ensuring eff
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item">
+                        <div class="service-item neon-card">
                             <div class="service-icon">
                                 <i class="fab fa-apple"></i>
                             </div>
@@ -211,7 +214,7 @@ I continuously explore new construction methods, materials, and technologies to 
                     <p>My Resume</p>
                     <h2>Working Experience</h2>
                 </header>
-                <div class="timeline">
+                <div class="timeline luminous-timeline">
                     <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                         <div class="timeline-text">
                             <div class="timeline-date">04/2024 - 10/2020</div>
@@ -232,10 +235,10 @@ As a Site Engineer, I oversee day-to-day operations on construction sites, ensur
         
 
        <!-- Portfolio Section -->
-<section id="portfolio" class="portfolio section">
+<section id="portfolio" class="portfolio section gradient-section">
 
   <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
+  <div class="container section-title elevated" data-aos="fade-up">
     <h2>Portfolio</h2>
     <p>Collaborated with diverse teams to drive successful project outcomes through innovation and effective problem-solving.</p>
   </div><!-- End Section Title -->
@@ -248,155 +251,177 @@ As a Site Engineer, I oversee day-to-day operations on construction sites, ensur
 
         <!-- Portfolio Item 1 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (1).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 2 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (2).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 3 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (3).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 4 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (4).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 5 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (5).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 6 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (6).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 7 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (7).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 8 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (8).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 9 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (9).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 10 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (10).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 11 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (11).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 12 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (12).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 13 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (13).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 14 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (14).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 15 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (15).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 16 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (16).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 17 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (17).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 18 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (18).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 19 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (19).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 20 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (20).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 21 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (21).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 22 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (22).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
@@ -404,64 +429,73 @@ As a Site Engineer, I oversee day-to-day operations on construction sites, ensur
 
         <!-- Portfolio Item 24 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (24).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 25 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (25).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 26 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (26).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 27 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (27).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 28 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (28).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 29 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (29).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 30 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (30).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 31 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (31).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
         <!-- Portfolio Item 32 -->
         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-          <div class="portfolio-content h-100">
+          <div class="portfolio-content h-100 portfolio-frame">
             <img src="img/pic (32).jpg" class="img-fluid" alt="">
+            <div class="portfolio-overlay" aria-hidden="true"></div>
           </div>
         </div><!-- End Portfolio Item -->
 
@@ -480,7 +514,7 @@ As a Site Engineer, I oversee day-to-day operations on construction sites, ensur
         
         
         <!-- Portfolio Start -->
-<div class="portfolio" id="portfolio">
+<div class="portfolio legacy-gallery" id="portfolio">
     <div class="container">
         <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
             <p>My Portfolio</p>
@@ -498,7 +532,7 @@ As a Site Engineer, I oversee day-to-day operations on construction sites, ensur
         </div>
         <div class="row portfolio-container">
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
-                <div class="portfolio-wrap">
+                <div class="portfolio-wrap glass-card">
                     <div class="portfolio-img">
                         <img src="img/portfolio-1.jpg" alt="Image">
                     </div>
@@ -509,7 +543,7 @@ As a Site Engineer, I oversee day-to-day operations on construction sites, ensur
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="portfolio-wrap">
+                <div class="portfolio-wrap glass-card">
                     <div class="portfolio-img">
                         <img src="img/portfolio-2.jpg" alt="Image">
                     </div>
@@ -520,7 +554,7 @@ As a Site Engineer, I oversee day-to-day operations on construction sites, ensur
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="portfolio-wrap">
+                <div class="portfolio-wrap glass-card">
                     <div class="portfolio-img">
                         <img src="img/portfolio-3.jpg" alt="Image">
                     </div>
@@ -531,7 +565,7 @@ As a Site Engineer, I oversee day-to-day operations on construction sites, ensur
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
-                <div class="portfolio-wrap">
+                <div class="portfolio-wrap glass-card">
                     <div class="portfolio-img">
                         <img src="img/portfolio-4.jpg" alt="Image">
                     </div>
@@ -542,7 +576,7 @@ As a Site Engineer, I oversee day-to-day operations on construction sites, ensur
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
-                <div class="portfolio-wrap">
+                <div class="portfolio-wrap glass-card">
                     <div class="portfolio-img">
                         <img src="img/portfolio-5.jpg" alt="Image">
                     </div>
@@ -553,7 +587,7 @@ As a Site Engineer, I oversee day-to-day operations on construction sites, ensur
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
-                <div class="portfolio-wrap">
+                <div class="portfolio-wrap glass-card">
                     <div class="portfolio-img">
                         <img src="img/portfolio-6.jpg" alt="Image">
                     </div>
@@ -580,7 +614,7 @@ As a Site Engineer, I oversee day-to-day operations on construction sites, ensur
                     <div class="row align-items-center">
                         <div class="col-md-4"></div>
                         <div class="col-md-8">
-                            <div class="contact-form">
+                            <div class="contact-form glass-card">
                                 <div id="success"></div>
                                 <form name="sentMessage" id="contactForm" novalidate="novalidate">
                                     <div class="control-group">
@@ -621,7 +655,7 @@ As a Site Engineer, I oversee day-to-day operations on construction sites, ensur
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+                <div class="blog-item wow fadeInUp glass-card" data-wow-delay="0.1s">
                     <div class="blog-img">
                         <img src="img/blog-1.jpg" alt="Blog">
                     </div>
@@ -641,7 +675,7 @@ As a Site Engineer, I oversee day-to-day operations on construction sites, ensur
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+                <div class="blog-item wow fadeInUp glass-card" data-wow-delay="0.3s">
                     <div class="blog-img">
                         <img src="img/blog-2.jpg" alt="Blog">
                     </div>
